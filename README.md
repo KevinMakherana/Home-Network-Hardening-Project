@@ -55,7 +55,7 @@ Implementing a strong password improves resistance against dictionary attacks, b
 
 Security Benefit: Reduced risk of unauthorized access through weak or default credentials.
 
-![Primary Wireless Network Configuration](Screenshots/WIFI Basic Settings.png)
+![Primary Wireless Network Configuration](Screenshots/WIFI-Basic-Settings.png)
 
 2. Disabling Wi-Fi Protected Setup (WPS)
 
