@@ -6,6 +6,7 @@ This project demonstrates the secure configuration and hardening of a home wirel
 
 The project focused on strengthening wireless authentication, replacing insecure default configurations, disabling unnecessary features, and implementing guest network segmentation to improve overall network security.
 
+
 Project Objectives
 
 * Secure a newly installed wireless access point
@@ -15,21 +16,23 @@ Project Objectives
 * Create a separate guest network
 * Apply cybersecurity best practices in a home environment
 
+
 Network Overview
 
-Network Type: Home Wireless Network
+* Network Type: Home Wireless Network
 
-Primary SSID: HouseNet_1
+* Primary SSID: HouseNet_1
 
-Wireless Band: 5 GHz
+* Wireless Band: 5 GHz
 
-Security Protocol: WPA3-SAE
+* Security Protocol: WPA3-SAE
 
-WPS Status: Disabled
+* WPS Status: Disabled
 
-Guest Network: Enabled
+* Guest Network: Enabled
 
-Guest SSID: HouseNet_Guest
+* Guest SSID: HouseNet_Guest
+
 
 Security Configuration Process
 
@@ -78,6 +81,7 @@ Security Benefit: Improved network segmentation and reduced exposure of internal
 
 ![Guest Network Configuration](Screenshots/Guest-WIFI.png)
 
+
 Security Improvements Achieved
 
 Default Credentials
@@ -104,9 +108,11 @@ Access Control
 
 * Limited guest network access to 4 hours.
 
+
 Lessons Learned
 
 Through this project, I gained practical experience in securing a wireless access point and applying cybersecurity best practices in a real-world environment.
+
 
 Key lessons learned include:
 
@@ -116,6 +122,7 @@ Key lessons learned include:
 * The risks associated with WPS and the benefits of disabling unnecessary services.
 * The value of network segmentation through guest wireless networks.
 * How small configuration changes can significantly improve the security posture of a network.
+
 
 Technologies and Concepts
 
@@ -127,6 +134,7 @@ Technologies and Concepts
 * Guest Network Segmentation
 * Wi-Fi Security Best Practices
 * Cybersecurity Fundamentals
+
 
 Conclusion
 
