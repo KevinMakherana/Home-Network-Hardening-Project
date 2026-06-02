@@ -52,7 +52,7 @@ Implementing a strong password improves resistance against dictionary attacks, b
 
 Security Benefit: Reduced risk of unauthorized access through weak or default credentials.
 
-![Primary Wireless Network Configuration](screenshots/WIFI-Basic-Settings.png)
+![Primary Wireless Network Configuration](Screenshots/WIFI-Basic-Settings.png)
 
 2. Disabling Wi-Fi Protected Setup (WPS)
 
@@ -64,7 +64,7 @@ Disabling WPS removes this potential attack vector and ensures that devices conn
 
 Security Benefit: Reduced attack surface and elimination of potential WPS-related vulnerabilities.
 
-![WPS Disabled](screenshots/WIFI-WPS.png)
+![WPS Disabled](Screenshots/WIFI-WPS.png)
 
 3. Guest Wireless Network Configuration
 
@@ -76,7 +76,7 @@ Guest network segmentation helps protect internal devices by separating guest tr
 
 Security Benefit: Improved network segmentation and reduced exposure of internal devices.
 
-![Guest Network Configuration](screenshots/Guest-WIFI.png)
+![Guest Network Configuration](Screenshots/Guest-WIFI.png)
 
 Security Improvements Achieved
 
