@@ -51,7 +51,8 @@ Default passwords may be publicly available through manufacturer documentation o
 Implementing a strong password improves resistance against dictionary attacks, brute-force attacks, and password guessing attempts.
 
 Security Benefit: Reduced risk of unauthorized access through weak or default credentials.
-Screenshot 1 - Primary Wireless Network Configuration
+
+Sreenshots/WIFI-Basic-Settings.png
 
 2. Disabling Wi-Fi Protected Setup (WPS)
 
@@ -62,7 +63,8 @@ Although WPS was originally designed to simplify wireless device connections, ce
 Disabling WPS removes this potential attack vector and ensures that devices connect using the stronger WPA3 authentication mechanism.
 
 Security Benefit: Reduced attack surface and elimination of potential WPS-related vulnerabilities.
-Screenshot 2 - WPS Disabled
+
+Screenshots/WIFI-WPS.png
 
 3. Guest Wireless Network Configuration
 
@@ -73,7 +75,8 @@ The guest network was configured with the SSID HouseNet_Guest. Access duration w
 Guest network segmentation helps protect internal devices by separating guest traffic from the main network.
 
 Security Benefit: Improved network segmentation and reduced exposure of internal devices.
-Screenshot 3 - Guest Network Configuration
+
+Screenshots/Guest-WIFI.png
 
 Security Improvements Achieved
 
