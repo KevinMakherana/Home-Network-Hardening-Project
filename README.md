@@ -5,14 +5,15 @@ Overview
 This project demonstrates the secure configuration and hardening of a home wireless network. The objective was to improve the security posture of a newly installed wireless access point by implementing cybersecurity best practices and reducing common attack vectors.
 
 The project focused on strengthening wireless authentication, replacing insecure default configurations, disabling unnecessary features, and implementing guest network segmentation to improve overall network security.
+
 Project Objectives
 
-    Secure a newly installed wireless access point
-    Implement stronger wireless authentication
-    Replace insecure default configurations
-    Reduce the attack surface of the wireless network
-    Create a separate guest network
-    Apply cybersecurity best practices in a home environment
+* Secure a newly installed wireless access point
+* Implement stronger wireless authentication
+* Replace insecure default configurations
+* Reduce the attack surface of the wireless network
+* Create a separate guest network
+* Apply cybersecurity best practices in a home environment
 
 Network Overview
 
@@ -29,7 +30,9 @@ WPS Status: Disabled
 Guest Network: Enabled
 
 Guest SSID: HouseNet_Guest
+
 Security Configuration Process
+
 1. Primary Wireless Network Configuration
 
 The first step was to configure the primary wireless network to improve both security and performance.
@@ -49,6 +52,7 @@ Implementing a strong password improves resistance against dictionary attacks, b
 
 Security Benefit: Reduced risk of unauthorized access through weak or default credentials.
 Screenshot 1 - Primary Wireless Network Configuration
+
 2. Disabling Wi-Fi Protected Setup (WPS)
 
 Wi-Fi Protected Setup (WPS) was disabled as part of the network hardening process.
@@ -59,6 +63,7 @@ Disabling WPS removes this potential attack vector and ensures that devices conn
 
 Security Benefit: Reduced attack surface and elimination of potential WPS-related vulnerabilities.
 Screenshot 2 - WPS Disabled
+
 3. Guest Wireless Network Configuration
 
 A separate guest wireless network was created to provide internet access for visitors without granting access to the primary network.
@@ -69,30 +74,32 @@ Guest network segmentation helps protect internal devices by separating guest tr
 
 Security Benefit: Improved network segmentation and reduced exposure of internal devices.
 Screenshot 3 - Guest Network Configuration
+
 Security Improvements Achieved
+
 Default Credentials
 
-    Replaced the default wireless password with a strong custom password.
+* Replaced the default wireless password with a strong custom password.
 
 Wireless Authentication
 
-    Upgraded security from WPA2-PSK to WPA3-SAE.
+* Upgraded security from WPA2-PSK to WPA3-SAE.
 
 WPS Vulnerabilities
 
-    Disabled WPS to remove potential attack vectors.
+* Disabled WPS to remove potential attack vectors.
 
 Network Identification
 
-    Replaced the default SSID with a custom network name.
+* Replaced the default SSID with a custom network name.
 
 Guest Network Security
 
-    Created a separate guest network for visitors.
+* Created a separate guest network for visitors.
 
 Access Control
 
-    Limited guest network access to 4 hours.
+* Limited guest network access to 4 hours.
 
 Lessons Learned
 
@@ -100,23 +107,23 @@ Through this project, I gained practical experience in securing a wireless acces
 
 Key lessons learned include:
 
-    The importance of changing default network configurations.
-    The security advantages of WPA3-SAE over older wireless authentication methods.
-    The importance of replacing default credentials with strong passwords.
-    The risks associated with WPS and the benefits of disabling unnecessary services.
-    The value of network segmentation through guest wireless networks.
-    How small configuration changes can significantly improve the security posture of a network.
+* The importance of changing default network configurations.
+* The security advantages of WPA3-SAE over older wireless authentication methods.
+* The importance of replacing default credentials with strong passwords.
+* The risks associated with WPS and the benefits of disabling unnecessary services.
+* The value of network segmentation through guest wireless networks.
+* How small configuration changes can significantly improve the security posture of a network.
 
 Technologies and Concepts
 
-    Wireless Network Security
-    WPA3-SAE Authentication
-    Access Point Configuration
-    Network Hardening
-    Password Security
-    Guest Network Segmentation
-    Wi-Fi Security Best Practices
-    Cybersecurity Fundamentals
+* Wireless Network Security
+* WPA3-SAE Authentication
+* Access Point Configuration
+* Network Hardening
+* Password Security
+* Guest Network Segmentation
+* Wi-Fi Security Best Practices
+* Cybersecurity Fundamentals
 
 Conclusion
 
